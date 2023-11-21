@@ -1,0 +1,3029 @@
+[
+    {
+        "day": "Day 1",
+        "meals": {
+            "Breakfast": {
+                "Name": "Idli with Sambar, Coconut Chutney",
+                "Recipe": {
+                    "Idli": {
+                        "Ingredients": [
+                            "2 cups idli batter",
+                            "Water for steaming"
+                        ],
+                        "Instructions": [
+                            "Grease the idli molds with oil.",
+                            "Pour the idli batter into each mold.",
+                            "Steam the idlis for 10-12 minutes until a toothpick comes out clean."
+                        ]
+                    },
+                    "Sambar": {
+                        "Ingredients": [
+                            "1/2 cup toor dal",
+                            "1 cup mixed vegetables (carrot, beans, potato, drumstick)",
+                            "1 onion, chopped",
+                            "2 tomatoes, chopped",
+                            "1/2 cup tamarind extract",
+                            "2 tablespoons sambar powder",
+                            "1/2 teaspoon turmeric powder",
+                            "Salt to taste",
+                            "2 tablespoons oil",
+                            "1/2 teaspoon mustard seeds",
+                            "1/2 teaspoon cumin seeds",
+                            "A pinch of asafoetida (hing)",
+                            "Few curry leaves"
+                        ],
+                        "Instructions": [
+                            "Cook toor dal until soft and mash it.",
+                            "In a pan, heat oil, add mustard seeds, cumin seeds, asafoetida, and curry leaves.",
+                            "Add chopped onions and sauté until golden brown.",
+                            "Add tomatoes and cook until they turn soft.",
+                            "Add mixed vegetables, tamarind extract, sambar powder, turmeric powder, and salt. Cook until vegetables are tender.",
+                            "Mix in the mashed dal and let it simmer for 10 minutes."
+                        ]
+                    },
+                    "Coconut Chutney": {
+                        "Ingredients": [
+                            "1 cup grated coconut",
+                            "2 tablespoons roasted chana dal",
+                            "2-3 green chilies, chopped",
+                            "1/2 inch ginger, chopped",
+                            "A small piece of tamarind (optional)",
+                            "Salt to taste",
+                            "1 tablespoon oil",
+                            "1/2 teaspoon mustard seeds",
+                            "1/2 teaspoon urad dal",
+                            "A pinch of asafoetida (hing)",
+                            "Few curry leaves"
+                        ],
+                        "Instructions": [
+                            "Blend grated coconut, roasted chana dal, green chilies, ginger, tamarind, and salt into a smooth paste.",
+                            "In a pan, heat oil, add mustard seeds, urad dal, asafoetida, and curry leaves.",
+                            "Pour the tempering over the coconut mixture and mix well."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 550,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 22,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 60,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 20,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 8,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Idli with Sambar and Coconut Chutney!"
+            },
+            "Lunch": {
+                "Name": "Quinoa Pulao with Vegetables, Chicken Curry",
+                "Recipe": {
+                    "Quinoa Pulao": {
+                        "Ingredients": [
+                            "Quinoa",
+                            "Mixed vegetables",
+                            "Chicken",
+                            "Spices and herbs"
+                        ],
+                        "Instructions": [
+                            "Cook quinoa and set aside.",
+                            "Sauté mixed vegetables and chicken in a pan.",
+                            "Mix quinoa with sautéed vegetables and chicken.",
+                            "Season with spices and herbs."
+                        ]
+                    },
+                    "Chicken Curry": {
+                        "Ingredients": [
+                            "Chicken pieces",
+                            "Onions",
+                            "Tomatoes",
+                            "Spices and herbs"
+                        ],
+                        "Instructions": [
+                            "Sauté onions and tomatoes.",
+                            "Add chicken pieces and cook until done.",
+                            "Season with spices and herbs."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 600,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 25,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 70,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 18,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 12,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Quinoa Pulao with Vegetables and Chicken Curry!"
+            },
+            "Snack": {
+                "Name": "Fruit Salad with Amla, Walnuts",
+                "Recipe": {
+                    "Fruit Salad": {
+                        "Ingredients": [
+                            "Mixed fruits",
+                            "Amla (Indian Gooseberry)",
+                            "Walnuts"
+                        ],
+                        "Instructions": [
+                            "Dice mixed fruits and Amla.",
+                            "Mix fruits and Amla, top with walnuts."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 200,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 5,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 30,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 8,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 5,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Fruit Salad with Amla and Walnuts!"
+            },
+            "Dinner": {
+                "Name": "Roti with Paneer Curry, Lentil Soup, Cabbage Thoran",
+                "Recipe": {
+                    "Paneer Curry": {
+                        "Ingredients": [
+                            "Paneer",
+                            "Onions",
+                            "Tomatoes",
+                            "Spices and herbs"
+                        ],
+                        "Instructions": [
+                            "Sauté onions and tomatoes.",
+                            "Add paneer pieces and cook until done.",
+                            "Season with spices and herbs."
+                        ]
+                    },
+                    "Lentil Soup": {
+                        "Ingredients": [
+                            "Lentils",
+                            "Vegetables",
+                            "Spices and herbs"
+                        ],
+                        "Instructions": [
+                            "Cook lentils with vegetables.",
+                            "Season with spices and herbs."
+                        ]
+                    },
+                    "Cabbage Thoran": {
+                        "Ingredients": [
+                            "Cabbage",
+                            "Coconut",
+                            "Mustard seeds",
+                            "Curry leaves"
+                        ],
+                        "Instructions": [
+                            "Sauté cabbage with coconut, mustard seeds, and curry leaves."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 550,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 22,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 60,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 20,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 8,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Roti with Paneer Curry, Lentil Soup, and Cabbage Thoran!"
+            }
+        }
+    },
+    {
+        "day": "Day 2",
+        "meals": {
+            "Breakfast": {
+                "Name": "Dosa with Coconut Chutney, Banana, Milk",
+                "Recipe": {
+                    "Dosa": {
+                        "Ingredients": [
+                            "Dosa batter"
+                        ],
+                        "Instructions": [
+                            "Heat a non-stick pan.",
+                            "Pour a ladle full of dosa batter and spread it in a circular motion.",
+                            "Cook until the edges turn golden brown.",
+                            "Serve hot."
+                        ]
+                    },
+                    "Coconut Chutney": {
+                        "Ingredients": [
+                            "1 cup grated coconut",
+                            "2 tablespoons roasted chana dal",
+                            "2-3 green chilies, chopped",
+                            "1/2 inch ginger, chopped",
+                            "Salt to taste",
+                            "1 tablespoon oil",
+                            "1/2 teaspoon mustard seeds",
+                            "1/2 teaspoon urad dal",
+                            "A pinch of asafoetida (hing)",
+                            "Few curry leaves"
+                        ],
+                        "Instructions": [
+                            "Blend coconut, roasted chana dal, green chilies, ginger, and salt into a smooth paste.",
+                            "In a pan, heat oil, add mustard seeds, urad dal, asafoetida, and curry leaves.",
+                            "Pour the tempering over the coconut mixture and mix well."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 400,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 10,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 60,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 15,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 5,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Dosa with Coconut Chutney, Banana, and Milk!"
+            },
+            "Lunch": {
+                "Name": "Quinoa Pulao with Vegetables, Chicken Curry",
+                "Recipe": {
+                    "Quinoa Pulao": {
+                        "Ingredients": [
+                            "Quinoa",
+                            "Mixed vegetables",
+                            "Chicken",
+                            "Spices and herbs"
+                        ],
+                        "Instructions": [
+                            "Cook quinoa and set aside.",
+                            "Sauté mixed vegetables and chicken in a pan.",
+                            "Mix quinoa with sautéed vegetables and chicken.",
+                            "Season with spices and herbs."
+                        ]
+                    },
+                    "Chicken Curry": {
+                        "Ingredients": [
+                            "Chicken pieces",
+                            "Onions",
+                            "Tomatoes",
+                            "Spices and herbs"
+                        ],
+                        "Instructions": [
+                            "Sauté onions and tomatoes.",
+                            "Add chicken pieces and cook until done.",
+                            "Season with spices and herbs."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 600,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 25,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 70,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 18,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 12,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Quinoa Pulao with Vegetables and Chicken Curry!"
+            },
+            "Snack": {
+                "Name": "Mixed Nuts and Seeds",
+                "Ingredients": [
+                    "Almonds",
+                    "Walnuts",
+                    "Chia Seeds",
+                    "Pumpkin Seeds",
+                    "Sunflower Seeds"
+                ],
+                "Instructions": [
+                    "Mix the almonds, walnuts, chia seeds, pumpkin seeds, and sunflower seeds in a bowl.",
+                    "Ensure they are well combined for a variety of flavors and nutrients.",
+                    "Enjoy a handful of this nutritious mix as a snack!"
+                ],
+                "Note": "A wholesome and tasty snack to boost your energy!"
+            },
+            "Dinner": {
+                "Name": "Roti with Paneer Curry, Lentil Soup, Cabbage Thoran",
+                "Recipe": {
+                    "Paneer Curry": {
+                        "Ingredients": [
+                            "Paneer",
+                            "Onions",
+                            "Tomatoes",
+                            "Spices and herbs"
+                        ],
+                        "Instructions": [
+                            "Sauté onions and tomatoes.",
+                            "Add paneer pieces and cook until done.",
+                            "Season with spices and herbs."
+                        ]
+                    },
+                    "Lentil Soup": {
+                        "Ingredients": [
+                            "Lentils",
+                            "Vegetables",
+                            "Spices and herbs"
+                        ],
+                        "Instructions": [
+                            "Cook lentils with vegetables.",
+                            "Season with spices and herbs."
+                        ]
+                    },
+                    "Cabbage Thoran": {
+                        "Ingredients": [
+                            "Cabbage",
+                            "Coconut",
+                            "Mustard seeds",
+                            "Curry leaves"
+                        ],
+                        "Instructions": [
+                            "Sauté cabbage with coconut, mustard seeds, and curry leaves."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 500,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 20,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 55,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 17,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 7,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Roti with Paneer Curry, Lentil Soup, and Cabbage Thoran!"
+            }
+        }
+    },
+    {
+        "day": "Day 3",
+        "meals": {
+            "Breakfast": {
+                "Name": "Pongal with Coconut Chutney, Kiwi, Milk",
+                "Recipe": {
+                    "Pongal": {
+                        "Ingredients": [
+                            "Pongal rice",
+                            "Split yellow moong dal",
+                            "Pepper",
+                            "Cumin",
+                            "Ghee"
+                        ],
+                        "Instructions": [
+                            "Cook rice and moong dal together until soft.",
+                            "In a separate pan, add ghee, pepper, and cumin, and temper the Pongal."
+                        ]
+                    },
+                    "Coconut Chutney": {
+                        "Ingredients": [
+                            "1 cup grated coconut",
+                            "2 tablespoons roasted chana dal",
+                            "2-3 green chilies, chopped",
+                            "1/2 inch ginger, chopped",
+                            "Salt to taste",
+                            "1 tablespoon oil",
+                            "1/2 teaspoon mustard seeds",
+                            "1/2 teaspoon urad dal",
+                            "A pinch of asafoetida (hing)",
+                            "Few curry leaves"
+                        ],
+                        "Instructions": [
+                            "Blend coconut, roasted chana dal, green chilies, ginger, and salt into a smooth paste.",
+                            "In a pan, heat oil, add mustard seeds, urad dal, asafoetida, and curry leaves.",
+                            "Pour the tempering over the coconut mixture and mix well."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 450,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 15,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 75,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 10,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 8,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Pongal with Coconut Chutney, Kiwi, and Milk!"
+            },
+            "Lunch": {
+                "Name": "Brown Rice with Mixed Vegetable Curry, Fish Curry, Spinach Stir-Fry, Curd",
+                "Recipe": {
+                    "Brown Rice with Mixed Vegetable Curry": {
+                        "Ingredients": [
+                            "Brown rice",
+                            "Mixed vegetables",
+                            "Spices and herbs"
+                        ],
+                        "Instructions": [
+                            "Cook brown rice.",
+                            "Sauté mixed vegetables and add spices and herbs."
+                        ]
+                    },
+                    "Fish Curry": {
+                        "Ingredients": [
+                            "Fish pieces",
+                            "Onions",
+                            "Tomatoes",
+                            "Spices and herbs"
+                        ],
+                        "Instructions": [
+                            "Sauté onions and tomatoes.",
+                            "Add fish pieces and cook until done.",
+                            "Season with spices and herbs."
+                        ]
+                    },
+                    "Spinach Stir-Fry": {
+                        "Ingredients": [
+                            "Spinach",
+                            "Oil",
+                            "Mustard seeds",
+                            "Urad dal",
+                            "Red chili"
+                        ],
+                        "Instructions": [
+                            "Sauté spinach with mustard seeds, urad dal, red chili."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 700,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 30,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 80,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 20,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 15,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Brown Rice with Mixed Vegetable Curry, Fish Curry, Spinach Stir-Fry, and Curd!"
+            },
+            "Snack": {
+                "Name": "Sundal, Handful of Almonds, Tea or Coffee",
+                "Recipe": {
+                    "Sundal": {
+                        "Ingredients": [
+                            "Chickpeas",
+                            "Coconut",
+                            "Mustard seeds",
+                            "Urad dal",
+                            "Curry leaves"
+                        ],
+                        "Instructions": [
+                            "Cook chickpeas."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 200,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 8,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 25,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 10,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 6,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Sundal with a handful of Almonds, and Tea or Coffee!"
+            },
+            "Dinner": {
+                "Name": "Chapati with Dal, Egg Curry, Green Salad, Buttermilk",
+                "Recipe": {
+                    "Dal": {
+                        "Ingredients": [
+                            "Toor dal",
+                            "Onions",
+                            "Tomatoes",
+                            "Spices and herbs"
+                        ],
+                        "Instructions": [
+                            "Cook toor dal until soft and mash it.",
+                            "Sauté onions and tomatoes.",
+                            "Add mashed dal and cook for 10 minutes."
+                        ]
+                    },
+                    "Egg Curry": {
+                        "Ingredients": [
+                            "Eggs",
+                            "Onions",
+                            "Tomatoes",
+                            "Spices and herbs"
+                        ],
+                        "Instructions": [
+                            "Boil eggs and set aside.",
+                            "Sauté onions and tomatoes.",
+                            "Add boiled eggs and cook for 10 minutes."
+                        ]
+                    },
+                    "Green Salad": {
+                        "Ingredients": [
+                            "Cucumber",
+                            "Tomatoes",
+                            "Lettuce",
+                            "Carrots",
+                            "Lemon juice",
+                            "Salt and pepper to taste"
+                        ],
+                        "Instructions": [
+                            "Dice cucumber, tomatoes, lettuce, and carrots.",
+                            "Mix in a bowl, add lemon juice, salt, and pepper."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 550,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 25,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 50,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 18,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 10,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Chapati with Dal, Egg Curry, Green Salad, and Buttermilk!"
+            }
+        }
+    },
+    {
+        "day": "Day 4",
+        "meals": {
+            "Breakfast": {
+                "Name": "Upma with Vegetables, Guava, Buttermilk",
+                "Recipe": {
+                    "Upma": {
+                        "Ingredients": [
+                            "Semolina (Rava)",
+                            "Mixed vegetables",
+                            "Mustard seeds",
+                            "Urad dal",
+                            "Curry leaves",
+                            "Oil",
+                            "Salt to taste"
+                        ],
+                        "Instructions": [
+                            "Roast semolina until golden brown.",
+                            "In a pan, heat oil, add mustard seeds, urad dal, curry leaves, and sauté mixed vegetables.",
+                            "Add roasted semolina, salt, and water. Cook until the upma is done."
+                        ]
+                    }
+                },
+                "Note": "Enjoy your Upma with Vegetables, Guava, and Buttermilk!"
+            },
+            "Lunch": {
+                "Name": "Millet Roti with Egg Curry, Chickpea Salad, Spinach Poriyal, Curd",
+                "Recipe": {
+                    "Millet Roti": {
+                        "Ingredients": [
+                            "Millet flour",
+                            "Water",
+                            "Salt"
+                        ],
+                        "Instructions": [
+                            "Mix millet flour, water, and salt to form a dough.",
+                            "Make small balls and roll them into rotis.",
+                            "Cook on a hot griddle until done."
+                        ]
+                    },
+                    "Egg Curry": {
+                        "Ingredients": [
+                            "Eggs",
+                            "Onions",
+                            "Tomatoes",
+                            "Spices and herbs"
+                        ],
+                        "Instructions": [
+                            "Boil eggs and set aside.",
+                            "Sauté onions and tomatoes.",
+                            "Add boiled eggs and cook for 10 minutes."
+                        ]
+                    },
+                    "Chickpea Salad": {
+                        "Ingredients": [
+                            "Chickpeas",
+                            "Cucumber",
+                            "Tomatoes",
+                            "Onions",
+                            "Lemon juice",
+                            "Salt and pepper to taste"
+                        ],
+                        "Instructions": [
+                            "Boil chickpeas and let them cool.",
+                            "Dice cucumber, tomatoes, and onions.",
+                            "Mix chickpeas and diced vegetables, add lemon juice, salt, and pepper."
+                        ]
+                    },
+                    "Spinach Poriyal": {
+                        "Ingredients": [
+                            "Spinach",
+                            "Coconut",
+                            "Mustard seeds",
+                            "Urad dal",
+                            "Red chili",
+                            "Oil"
+                        ],
+                        "Instructions": [
+                            "Sauté spinach with mustard seeds, urad dal, red chili, and coconut."
+                        ]
+                    }
+                },
+                "Note": "Enjoy your Millet Roti with Egg Curry, Chickpea Salad, Spinach Poriyal, and Curd!"
+            },
+            "Snack": {
+                "Name": "Banana Smoothie with Almond Butter, Mixed Nuts, Tea or Coffee",
+                "Recipe": {
+                    "Banana Smoothie": {
+                        "Ingredients": [
+                            "Banana",
+                            "Almond butter",
+                            "Milk",
+                            "Honey",
+                            "Ice cubes"
+                        ],
+                        "Instructions": [
+                            "Blend banana, almond butter, milk, honey, and ice cubes until smooth."
+                        ]
+                    }
+                },
+                "Note": "Enjoy your Banana Smoothie with Almond Butter, Mixed Nuts, and Tea or Coffee!"
+            },
+            "Dinner": {
+                "Name": "Quinoa Khichdi, Chicken Stir-Fry with Bell Peppers, Cucumber Raita, Buttermilk",
+                "Recipe": {
+                    "Quinoa Khichdi": {
+                        "Ingredients": [
+                            "Quinoa",
+                            "Lentils",
+                            "Mixed vegetables",
+                            "Spices and herbs"
+                        ],
+                        "Instructions": [
+                            "Cook quinoa and lentils together until soft.",
+                            "Sauté mixed vegetables and add spices and herbs.",
+                            "Mix quinoa and lentils with sautéed vegetables."
+                        ]
+                    },
+                    "Chicken Stir-Fry with Bell Peppers": {
+                        "Ingredients": [
+                            "Chicken strips",
+                            "Bell peppers",
+                            "Onions",
+                            "Soy sauce",
+                            "Ginger-garlic paste",
+                            "Spices and herbs"
+                        ],
+                        "Instructions": [
+                            "Stir-fry chicken strips with bell peppers and onions.",
+                            "Add soy sauce, ginger-garlic paste, and season with spices and herbs."
+                        ]
+                    },
+                    "Cucumber Raita": {
+                        "Ingredients": [
+                            "Cucumber",
+                            "Yogurt",
+                            "Roasted cumin powder",
+                            "Coriander leaves",
+                            "Salt to taste"
+                        ],
+                        "Instructions": [
+                            "Grate cucumber and mix with yogurt.",
+                            "Add roasted cumin powder, coriander leaves, and salt."
+                        ]
+                    }
+                },
+                "Note": "Enjoy your Quinoa Khichdi, Chicken Stir-Fry with Bell Peppers, Cucumber Raita, and Buttermilk!"
+            }
+        }
+    },
+    {
+        "day": "Day 5",
+        "meals": {
+            "Breakfast": {
+                "Name": "Rava Kesari with Nuts, Orange, Milk",
+                "Recipe": {
+                    "Rava Kesari": {
+                        "Ingredients": [
+                            "Semolina (Rava)",
+                            "Ghee",
+                            "Sugar",
+                            "Water",
+                            "Nuts"
+                        ],
+                        "Instructions": [
+                            "Roast semolina in ghee until golden brown.",
+                            "In a separate pan, heat water and sugar to make a syrup.",
+                            "Slowly add the roasted semolina to the syrup, stirring continuously to avoid lumps.",
+                            "Garnish with nuts."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 400,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 8,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 70,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 10,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 5,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Rava Kesari with Nuts, Orange, and Milk!"
+            },
+            "Lunch": {
+                "Name": "Brown Rice with Lentil Curry, Grilled Fish, Cabbage Thoran, Curd",
+                "Recipe": {
+                    "Brown Rice with Lentil Curry": {
+                        "Ingredients": [
+                            "Brown rice",
+                            "Lentils",
+                            "Onions",
+                            "Tomatoes",
+                            "Spices and herbs"
+                        ],
+                        "Instructions": [
+                            "Cook brown rice.",
+                            "Cook lentils until soft and mash them.",
+                            "Sauté onions and tomatoes, add spices and herbs.",
+                            "Mix mashed lentils with sautéed vegetables."
+                        ]
+                    },
+                    "Grilled Fish": {
+                        "Ingredients": [
+                            "Fish fillets",
+                            "Lemon juice",
+                            "Olive oil",
+                            "Garlic powder",
+                            "Paprika",
+                            "Salt and pepper to taste"
+                        ],
+                        "Instructions": [
+                            "Marinate fish fillets with lemon juice, olive oil, garlic powder, paprika, salt, and pepper.",
+                            "Grill until cooked through."
+                        ]
+                    },
+                    "Cabbage Thoran": {
+                        "Ingredients": [
+                            "Cabbage",
+                            "Coconut",
+                            "Mustard seeds",
+                            "Urad dal",
+                            "Curry leaves",
+                            "Green chilies",
+                            "Oil"
+                        ],
+                        "Instructions": [
+                            "Shred cabbage and sauté with mustard seeds, urad dal, curry leaves, and green chilies.",
+                            "Add coconut and cook until the cabbage is tender."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 700,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 30,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 80,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 15,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 10,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Brown Rice with Lentil Curry, Grilled Fish, Cabbage Thoran, and Curd!"
+            },
+            "Snack": {
+                "Name": "Masala Chai with Whole Grain Crackers, Greek Yogurt with Honey",
+                "Recipe": {
+                    "Masala Chai": {
+                        "Ingredients": [
+                            "Tea leaves",
+                            "Water",
+                            "Milk",
+                            "Sugar",
+                            "Cardamom",
+                            "Cinnamon"
+                        ],
+                        "Instructions": [
+                            "Boil tea leaves, water, and spices in a pot.",
+                            "Add milk and sugar, simmer for a few minutes, and strain."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 150,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 5,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 20,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 7,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 2,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Masala Chai with Whole Grain Crackers, Greek Yogurt with Honey!"
+            },
+            "Dinner": {
+                "Name": "Chapati with Palak Paneer, Dal Tadka, Carrot and Beetroot Salad, Buttermilk",
+                "Recipe": {
+                    "Chapati": {
+                        "Ingredients": [
+                            "Whole wheat flour",
+                            "Water",
+                            "Salt"
+                        ],
+                        "Instructions": [
+                            "Mix whole wheat flour, water, and salt to form a dough.",
+                            "Make small balls and roll them into chapatis.",
+                            "Cook on a hot griddle until done."
+                        ]
+                    },
+                    "Palak Paneer": {
+                        "Ingredients": [
+                            "Spinach",
+                            "Paneer",
+                            "Onions",
+                            "Tomatoes",
+                            "Spices and herbs"
+                        ],
+                        "Instructions": [
+                            "Blanch spinach and puree it.",
+                            "Sauté onions and tomatoes.",
+                            "Add spinach puree, paneer, and season with spices and herbs."
+                        ]
+                    },
+                    "Dal Tadka": {
+                        "Ingredients": [
+                            "Toor dal",
+                            "Onions",
+                            "Tomatoes",
+                            "Mustard seeds",
+                            "Cumin seeds",
+                            "Garlic",
+                            "Spices and herbs"
+                        ],
+                        "Instructions": [
+                            "Cook toor dal until soft and mash it.",
+                            "Sauté onions, tomatoes, and garlic.",
+                            "Add mashed dal and season with mustard seeds, cumin seeds, and spices."
+                        ]
+                    },
+                    "Carrot and Beetroot Salad": {
+                        "Ingredients": [
+                            "Carrots",
+                            "Beetroot",
+                            "Lemon juice",
+                            "Salt and pepper to taste",
+                            "Coriander leaves"
+                        ],
+                        "Instructions": [
+                            "Grate carrots and beetroot.",
+                            "Mix with lemon juice, salt, pepper, and garnish with coriander leaves."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 600,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 25,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 70,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 15,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 12,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Chapati with Palak Paneer, Dal Tadka, Carrot and Beetroot Salad, and Buttermilk!"
+            }
+        }
+    },
+    {
+        "day": "Day 6",
+        "meals": {
+            "Breakfast": {
+                "Name": "Oats Upma with Vegetables, Apple, Buttermilk",
+                "Recipe": {
+                    "Oats Upma": {
+                        "Ingredients": [
+                            "Oats",
+                            "Mixed vegetables",
+                            "Mustard seeds",
+                            "Urad dal",
+                            "Curry leaves",
+                            "Oil",
+                            "Salt to taste"
+                        ],
+                        "Instructions": [
+                            "Roast oats until golden brown.",
+                            "In a pan, heat oil, add mustard seeds, urad dal, curry leaves, and sauté mixed vegetables.",
+                            "Add roasted oats, salt, and water. Cook until the upma is done."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 350,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 10,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 60,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 8,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 10,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Oats Upma with Vegetables, Apple, and Buttermilk!"
+            },
+            "Lunch": {
+                "Name": "Quinoa Salad with Chickpeas, Mutton Curry, Broccoli Stir-Fry, Curd",
+                "Recipe": {
+                    "Quinoa Salad with Chickpeas": {
+                        "Ingredients": [
+                            "Quinoa",
+                            "Chickpeas",
+                            "Cucumber",
+                            "Tomatoes",
+                            "Red onion",
+                            "Lemon juice",
+                            "Olive oil",
+                            "Salt and pepper to taste",
+                            "Fresh coriander leaves"
+                        ],
+                        "Instructions": [
+                            "Cook quinoa and chickpeas.",
+                            "Dice cucumber, tomatoes, and red onion.",
+                            "Mix cooked quinoa, chickpeas, and diced vegetables.",
+                            "Add lemon juice, olive oil, salt, pepper, and garnish with fresh coriander leaves."
+                        ]
+                    },
+                    "Mutton Curry": {
+                        "Ingredients": [
+                            "Mutton pieces",
+                            "Onions",
+                            "Tomatoes",
+                            "Ginger-garlic paste",
+                            "Spices and herbs",
+                            "Yogurt"
+                        ],
+                        "Instructions": [
+                            "Sauté onions until golden brown.",
+                            "Add ginger-garlic paste and tomatoes, cook until the tomatoes are soft.",
+                            "Add mutton pieces, spices, and herbs. Cook until the mutton is tender.",
+                            "Finish by adding yogurt and simmer for a few minutes."
+                        ]
+                    },
+                    "Broccoli Stir-Fry": {
+                        "Ingredients": [
+                            "Broccoli florets",
+                            "Garlic",
+                            "Soy sauce",
+                            "Sesame oil",
+                            "Salt and pepper to taste"
+                        ],
+                        "Instructions": [
+                            "Sauté broccoli florets and garlic in sesame oil.",
+                            "Add soy sauce, salt, and pepper. Stir-fry until broccoli is tender."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 800,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 35,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 85,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 18,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 15,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Quinoa Salad with Chickpeas, Mutton Curry, Broccoli Stir-Fry, and Curd!"
+            },
+            "Snack": {
+                "Name": "Fruit Chaat with Chaat Masala, Trail Mix, Tea or Coffee",
+                "Recipe": {
+                    "Fruit Chaat": {
+                        "Ingredients": [
+                            "Assorted fruits (Apple, Banana, Mango, etc.)",
+                            "Chaat masala",
+                            "Lemon juice",
+                            "Salt and pepper to taste",
+                            "Fresh mint leaves"
+                        ],
+                        "Instructions": [
+                            "Dice assorted fruits and mix them in a bowl.",
+                            "Add chaat masala, lemon juice, salt, and pepper. Toss well.",
+                            "Garnish with fresh mint leaves."
+                        ]
+                    },
+                    "Trail Mix": {
+                        "Ingredients": [
+                            "Mixed nuts (Almonds, Walnuts, Cashews, etc.)",
+                            "Dried fruits (Raisins, Cranberries, etc.)",
+                            "Seeds (Pumpkin seeds, Sunflower seeds, etc.)",
+                            "Spices (Cinnamon, Nutmeg, etc.)"
+                        ],
+                        "Instructions": [
+                            "Mix assorted nuts, dried fruits, and seeds in a bowl.",
+                            "Sprinkle with your favorite spices."
+                        ]
+                    },
+                    "Tea or Coffee": {
+                        "Ingredients": [
+                            "Tea leaves or Coffee powder",
+                            "Water",
+                            "Milk",
+                            "Sugar (optional)"
+                        ],
+                        "Instructions": [
+                            "Boil water and add tea leaves or coffee powder.",
+                            "Add milk and sugar if desired. Strain and serve."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 250,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 5,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 30,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 12,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 5,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Fruit Chaat with Chaat Masala, Trail Mix, and Tea or Coffee!"
+            },
+            "Dinner": {
+                "Name": "Roti with Aloo Gobi, Lentil Soup, Capsicum Raita, Buttermilk",
+                "Recipe": {
+                    "Roti": {
+                        "Ingredients": [
+                            "Whole wheat flour",
+                            "Water",
+                            "Salt"
+                        ],
+                        "Instructions": [
+                            "Mix whole wheat flour, water, and salt to form a dough.",
+                            "Make small balls and roll them into rotis.",
+                            "Cook on a hot griddle until done."
+                        ]
+                    },
+                    "Aloo Gobi": {
+                        "Ingredients": [
+                            "Potatoes",
+                            "Cauliflower",
+                            "Onions",
+                            "Tomatoes",
+                            "Ginger-garlic paste",
+                            "Spices and herbs"
+                        ],
+                        "Instructions": [
+                            "Sauté onions until golden brown.",
+                            "Add ginger-garlic paste and tomatoes, cook until the tomatoes are soft.",
+                            "Add potatoes, cauliflower, spices, and herbs. Cook until vegetables are tender."
+                        ]
+                    },
+                    "Lentil Soup": {
+                        "Ingredients": [
+                            "Lentils",
+                            "Onions",
+                            "Tomatoes",
+                            "Carrots",
+                            "Celery",
+                            "Garlic",
+                            "Spices and herbs"
+                        ],
+                        "Instructions": [
+                            "Cook lentils until soft and mash them.",
+                            "Sauté onions, tomatoes, carrots, celery, and garlic.",
+                            "Add mashed lentils and season with spices and herbs."
+                        ]
+                    },
+                    "Capsicum Raita": {
+                        "Ingredients": [
+                            "Capsicum",
+                            "Yogurt",
+                            "Roasted cumin powder",
+                            "Coriander leaves",
+                            "Salt to taste"
+                        ],
+                        "Instructions": [
+                            "Dice capsicum and mix with yogurt.",
+                            "Add roasted cumin powder, coriander leaves, and salt."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 600,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 25,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 70,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 15,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 12,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Roti with Aloo Gobi, Lentil Soup, Capsicum Raita, and Buttermilk!"
+            }
+        }
+    },
+    {
+        "day": "Day 7",
+        "meals": {
+            "Breakfast": {
+                "Name": "Kuzhi Paniyaram with Coconut Chutney, Mango, Filter Coffee",
+                "Recipe": {
+                    "Kuzhi Paniyaram": {
+                        "Ingredients": [
+                            "Idli batter",
+                            "Onion",
+                            "Mustard seeds",
+                            "Urad dal",
+                            "Curry leaves",
+                            "Oil"
+                        ],
+                        "Instructions": [
+                            "Mix idli batter with finely chopped onions, mustard seeds, urad dal, and curry leaves.",
+                            "Heat the paniyaram pan, add oil in each mold, and pour the batter.",
+                            "Cook until golden brown on both sides."
+                        ]
+                    },
+                    "Coconut Chutney": {
+                        "Ingredients": [
+                            "Grated coconut",
+                            "Roasted chana dal",
+                            "Green chilies",
+                            "Ginger",
+                            "Tamarind",
+                            "Salt",
+                            "Oil",
+                            "Mustard seeds",
+                            "Urad dal",
+                            "Curry leaves"
+                        ],
+                        "Instructions": [
+                            "Blend grated coconut, roasted chana dal, green chilies, ginger, tamarind, and salt into a smooth paste.",
+                            "In a pan, heat oil, add mustard seeds, urad dal, and curry leaves.",
+                            "Pour the tempering over the coconut mixture and mix well."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 400,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 8,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 60,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 15,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 6,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Kuzhi Paniyaram with Coconut Chutney, Mango, and Filter Coffee!"
+            },
+            "Lunch": {
+                "Name": "Sambar Sadam, Fish Curry, Avarakkai Poriyal, Curd Rice",
+                "Recipe": {
+                    "Sambar Sadam": {
+                        "Ingredients": [
+                            "Rice",
+                            "Toor dal",
+                            "Mixed vegetables",
+                            "Sambar powder",
+                            "Tamarind extract",
+                            "Mustard seeds",
+                            "Urad dal",
+                            "Asafoetida",
+                            "Curry leaves"
+                        ],
+                        "Instructions": [
+                            "Cook rice and toor dal. In a pan, add mustard seeds, urad dal, asafoetida, and curry leaves.",
+                            "Add mixed vegetables, sambar powder, tamarind extract, and cooked toor dal.",
+                            "Mix well and serve."
+                        ]
+                    },
+                    "Fish Curry": {
+                        "Ingredients": [
+                            "Fish pieces",
+                            "Onions",
+                            "Tomatoes",
+                            "Ginger-garlic paste",
+                            "Chili powder",
+                            "Coriander powder",
+                            "Turmeric powder",
+                            "Tamarind extract",
+                            "Mustard seeds",
+                            "Urad dal",
+                            "Curry leaves",
+                            "Oil"
+                        ],
+                        "Instructions": [
+                            "Sauté onions until golden brown. Add ginger-garlic paste and tomatoes.",
+                            "Add chili powder, coriander powder, turmeric powder, tamarind extract, and water.",
+                            "Add fish pieces and cook until done."
+                        ]
+                    },
+                    "Avarakkai Poriyal": {
+                        "Ingredients": [
+                            "Avarakkai (Broad beans)",
+                            "Coconut",
+                            "Mustard seeds",
+                            "Urad dal",
+                            "Green chilies",
+                            "Curry leaves",
+                            "Oil"
+                        ],
+                        "Instructions": [
+                            "Chop avarakkai and cook until tender.",
+                            "In a pan, add oil, mustard seeds, urad dal, green chilies, and curry leaves.",
+                            "Add cooked avarakkai and coconut. Mix well."
+                        ]
+                    },
+                    "Curd Rice": {
+                        "Ingredients": [
+                            "Rice",
+                            "Curd",
+                            "Milk",
+                            "Salt",
+                            "Ginger",
+                            "Green chilies",
+                            "Mustard seeds",
+                            "Urad dal",
+                            "Curry leaves",
+                            "Oil"
+                        ],
+                        "Instructions": [
+                            "Cook rice and let it cool. Mix curd and milk in a bowl.",
+                            "In a pan, add oil, mustard seeds, urad dal, ginger, green chilies, and curry leaves.",
+                            "Mix the tempering with curd and rice. Add salt and serve."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 900,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 40,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 120,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 25,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 15,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Sambar Sadam, Fish Curry, Avarakkai Poriyal, and Curd Rice!"
+            },
+            "Snack": {
+                "Name": "Murukku with Tea or Coffee, Fresh Pineapple",
+                "Recipe": {
+                    "Murukku": {
+                        "Ingredients": [
+                            "Rice flour",
+                            "Urad dal flour",
+                            "Gram flour",
+                            "Butter",
+                            "Sesame seeds",
+                            "Cumin seeds",
+                            "Asafoetida",
+                            "Salt",
+                            "Oil for frying"
+                        ],
+                        "Instructions": [
+                            "Mix rice flour, urad dal flour, gram flour, butter, sesame seeds, cumin seeds, asafoetida, and salt.",
+                            "Add water and knead the dough. Make murukku shapes and deep fry."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 200,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 3,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 20,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 12,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 1,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Murukku with Tea or Coffee and Fresh Pineapple!"
+            },
+            "Dinner": {
+                "Name": "Chettinad Chicken Curry with Chapathi, Keerai Masiyal, Onion Raita",
+                "Recipe": {
+                    "Chettinad Chicken Curry": {
+                        "Ingredients": [
+                            "Chicken pieces",
+                            "Onions",
+                            "Tomatoes",
+                            "Ginger-garlic paste",
+                            "Chili powder",
+                            "Coriander powder",
+                            "Turmeric powder",
+                            "Garam masala",
+                            "Curry leaves",
+                            "Oil"
+                        ],
+                        "Instructions": [
+                            "Sauté onions until golden brown. Add ginger-garlic paste and tomatoes.",
+                            "Add chili powder, coriander powder, turmeric powder, and garam masala.",
+                            "Add chicken pieces and cook until done. Garnish with curry leaves."
+                        ]
+                    },
+                    "Chapathi": {
+                        "Ingredients": [
+                            "Whole wheat flour",
+                            "Water",
+                            "Salt"
+                        ],
+                        "Instructions": [
+                            "Mix whole wheat flour, water, and salt to form a dough.",
+                            "Make small balls and roll them into chapatis.",
+                            "Cook on a hot griddle until done."
+                        ]
+                    },
+                    "Keerai Masiyal": {
+                        "Ingredients": [
+                            "Spinach",
+                            "Moong dal",
+                            "Garlic",
+                            "Green chilies",
+                            "Cumin seeds",
+                            "Salt",
+                            "Oil"
+                        ],
+                        "Instructions": [
+                            "Blanch spinach and moong dal. Blend into a coarse paste.",
+                            "In a pan, add oil, cumin seeds, garlic, and green chilies.",
+                            "Add the spinach mixture and salt. Cook until it reaches a thick consistency."
+                        ]
+                    },
+                    "Onion Raita": {
+                        "Ingredients": [
+                            "Onion",
+                            "Curd",
+                            "Cumin powder",
+                            "Coriander leaves",
+                            "Salt"
+                        ],
+                        "Instructions": [
+                            "Chop onion and coriander leaves.",
+                            "Mix with curd, cumin powder, and salt."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 1100,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 45,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 90,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 30,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 10,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Chettinad Chicken Curry with Chapathi, Keerai Masiyal, and Onion Raita!"
+            }
+        }
+    },
+    {
+        "day": "Day 8",
+        "meals": {
+            "Breakfast": {
+                "Name": "Adai with Avocado Chutney, Papaya, Buttermilk",
+                "Recipe": {
+                    "Adai": {
+                        "Ingredients": [
+                            "Rice",
+                            "Toor dal",
+                            "Chana dal",
+                            "Urad dal",
+                            "Moong dal",
+                            "Red chili",
+                            "Curry leaves",
+                            "Asafoetida",
+                            "Salt",
+                            "Oil"
+                        ],
+                        "Instructions": [
+                            "Soak rice and dals for a few hours. Grind into a coarse batter with red chili, curry leaves, asafoetida, and salt.",
+                            "Heat a pan, spread the batter, and cook until both sides are golden brown."
+                        ]
+                    },
+                    "Avocado Chutney": {
+                        "Ingredients": [
+                            "Avocado",
+                            "Coconut",
+                            "Green chilies",
+                            "Ginger",
+                            "Lemon juice",
+                            "Salt",
+                            "Oil",
+                            "Mustard seeds",
+                            "Urad dal",
+                            "Curry leaves"
+                        ],
+                        "Instructions": [
+                            "Blend avocado, coconut, green chilies, ginger, lemon juice, and salt into a smooth chutney.",
+                            "In a pan, heat oil, add mustard seeds, urad dal, and curry leaves. Pour the tempering over the chutney."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 450,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 12,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 70,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 18,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 8,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Adai with Avocado Chutney, Papaya, and Buttermilk!"
+            },
+            "Lunch": {
+                "Name": "Bisi Bele Bath with Eggplant Curry, Carrot Kootu, Curd Rice",
+                "Recipe": {
+                    "Bisi Bele Bath": {
+                        "Ingredients": [
+                            "Rice",
+                            "Toor dal",
+                            "Mixed vegetables",
+                            "Tamarind extract",
+                            "Bisi Bele Bath powder",
+                            "Jaggery",
+                            "Salt",
+                            "Ghee",
+                            "Mustard seeds",
+                            "Urad dal",
+                            "Cashews",
+                            "Curry leaves"
+                        ],
+                        "Instructions": [
+                            "Cook rice and toor dal. In a pan, add mixed vegetables, tamarind extract, Bisi Bele Bath powder, jaggery, and salt.",
+                            "Mix the cooked rice and dal. In a tempering pan, add ghee, mustard seeds, urad dal, cashews, and curry leaves.",
+                            "Pour the tempering over the Bisi Bele Bath."
+                        ]
+                    },
+                    "Eggplant Curry": {
+                        "Ingredients": [
+                            "Eggplants",
+                            "Onions",
+                            "Tomatoes",
+                            "Ginger-garlic paste",
+                            "Chili powder",
+                            "Coriander powder",
+                            "Turmeric powder",
+                            "Garam masala",
+                            "Mustard seeds",
+                            "Urad dal",
+                            "Curry leaves",
+                            "Oil"
+                        ],
+                        "Instructions": [
+                            "Sauté onions until golden brown. Add ginger-garlic paste and tomatoes.",
+                            "Add chili powder, coriander powder, turmeric powder, garam masala, and salt.",
+                            "Add eggplant pieces and cook until done. Garnish with mustard seeds, urad dal, and curry leaves."
+                        ]
+                    },
+                    "Carrot Kootu": {
+                        "Ingredients": [
+                            "Carrots",
+                            "Moong dal",
+                            "Coconut",
+                            "Green chilies",
+                            "Cumin seeds",
+                            "Curry leaves",
+                            "Oil"
+                        ],
+                        "Instructions": [
+                            "Cook carrots and moong dal. In a blender, grind coconut, green chilies, and cumin seeds into a paste.",
+                            "Add the paste to the cooked carrots and moong dal. In a pan, add oil and curry leaves for tempering."
+                        ]
+                    },
+                    "Curd Rice": {
+                        "Ingredients": [
+                            "Rice",
+                            "Curd",
+                            "Salt"
+                        ],
+                        "Instructions": [
+                            "Cook rice and let it cool. Mix curd and salt with the rice."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 600,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 15,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 85,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 20,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 10,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Bisi Bele Bath with Eggplant Curry, Carrot Kootu, and Curd Rice!"
+            },
+            "Snack": {
+                "Name": "Masala Chai with Medu Vada, Banana",
+                "Recipe": {
+                    "Masala Chai": {
+                        "Ingredients": [
+                            "Tea leaves",
+                            "Water",
+                            "Milk",
+                            "Sugar",
+                            "Cardamom",
+                            "Cinnamon"
+                        ],
+                        "Instructions": [
+                            "Boil tea leaves, water, and spices in a pot.",
+                            "Add milk and sugar, simmer for a few minutes, and strain."
+                        ]
+                    },
+                    "Medu Vada": {
+                        "Ingredients": [
+                            "Urad dal",
+                            "Green chilies",
+                            "Ginger",
+                            "Curry leaves",
+                            "Cumin seeds",
+                            "Pepper",
+                            "Salt",
+                            "Oil for frying"
+                        ],
+                        "Instructions": [
+                            "Soak urad dal for a few hours. Grind into a smooth batter with green chilies, ginger, and salt.",
+                            "Add curry leaves, cumin seeds, and pepper to the batter. Shape into vadas and deep fry until golden brown."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 300,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 8,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 45,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 12,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 5,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Masala Chai with Medu Vada and Banana!"
+            },
+            "Dinner": {
+                "Name": "Kothamalli Rice with Chicken Gravy, Beetroot Pachadi, Cucumber Buttermilk",
+                "Recipe": {
+                    "Kothamalli Rice": {
+                        "Ingredients": [
+                            "Cooked rice",
+                            "Coriander leaves",
+                            "Green chilies",
+                            "Ginger",
+                            "Lemon juice",
+                            "Mustard seeds",
+                            "Urad dal",
+                            "Chana dal",
+                            "Asafoetida",
+                            "Oil"
+                        ],
+                        "Instructions": [
+                            "Chop coriander leaves, green chilies, and ginger.",
+                            "In a pan, heat oil, add mustard seeds, urad dal, chana dal, and asafoetida.",
+                            "Add the seasoning to the cooked rice. Add lemon juice and mix well."
+                        ]
+                    },
+                    "Chicken Gravy": {
+                        "Ingredients": [
+                            "Chicken pieces",
+                            "Onions",
+                            "Tomatoes",
+                            "Ginger-garlic paste",
+                            "Chili powder",
+                            "Coriander powder",
+                            "Turmeric powder",
+                            "Garam masala",
+                            "Curry leaves",
+                            "Oil"
+                        ],
+                        "Instructions": [
+                            "Heat oil in a pan. Add finely chopped onions and sauté until golden brown.",
+                            "Add ginger-garlic paste and cook until the raw smell disappears.",
+                            "Add tomatoes and cook until the oil separates from the masala.",
+                            "Add chili powder, coriander powder, turmeric powder, and garam masala. Mix well.",
+                            "Add chicken pieces and cook until they are well-coated with the masala.",
+                            "Pour enough water, add curry leaves, and let it simmer until the chicken is cooked thoroughly."
+                        ]
+                    },
+                    "Beetroot Pachadi": {
+                        "Ingredients": [
+                            "Beetroot",
+                            "Curd",
+                            "Coconut",
+                            "Green chilies",
+                            "Mustard seeds",
+                            "Urad dal",
+                            "Curry leaves",
+                            "Oil"
+                        ],
+                        "Instructions": [
+                            "Grate the beetroot and cook until it becomes soft.",
+                            "In a blender, mix coconut, green chilies, mustard seeds, and urad dal into a fine paste.",
+                            "Combine the beetroot, cooked rice, and the coconut mixture. Mix well.",
+                            "In a pan, heat oil, add mustard seeds, urad dal, and curry leaves for tempering. Pour over the pachadi."
+                        ]
+                    },
+                    "Cucumber Buttermilk": {
+                        "Ingredients": [
+                            "Cucumber",
+                            "Curd",
+                            "Water",
+                            "Ginger",
+                            "Green chilies",
+                            "Curry leaves",
+                            "Mustard seeds",
+                            "Urad dal",
+                            "Asafoetida",
+                            "Oil"
+                        ],
+                        "Instructions": [
+                            "Grate the cucumber and finely chop ginger and green chilies.",
+                            "In a bowl, mix curd and water to make buttermilk. Add grated cucumber, ginger, and green chilies.",
+                            "In a pan, heat oil, add mustard seeds, urad dal, curry leaves, and a pinch of asafoetida for tempering.",
+                            "Pour the tempering over the buttermilk mixture."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 700,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 25,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 60,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 30,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 15,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Kothamalli Rice with Chicken Gravy, Beetroot Pachadi, and Cucumber Buttermilk!"
+            }
+        }
+    },
+    {
+        "day": "Day 9",
+        "meals": {
+            "Breakfast": {
+                "Name": "Ven Pongal with Coconut Chutney, Orange, Nuts Mix, Filter Coffee",
+                "Recipe": {
+                    "Ven Pongal": {
+                        "Ingredients": [
+                            "Rice",
+                            "Split yellow moong dal",
+                            "Black pepper",
+                            "Cumin seeds",
+                            "Ginger",
+                            "Ghee",
+                            "Cashews",
+                            "Curry leaves",
+                            "Salt"
+                        ],
+                        "Instructions": [
+                            "Roast rice and moong dal until they turn golden brown.",
+                            "In a pressure cooker, add roasted rice, moong dal, black pepper, cumin seeds, ginger, and water. Cook until soft.",
+                            "In a pan, heat ghee, add cashews and curry leaves. Add the seasoning to the cooked pongal. Add salt to taste."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 400,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 10,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 60,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 15,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 5,
+                        "unit": "g"
+                    }
+                },
+                "Nuts and Seeds": [
+                    "Cashews"
+                ],
+                "Note": "Enjoy your Ven Pongal with Coconut Chutney, Orange, a mix of nuts, and Filter Coffee!"
+            },
+            "Lunch": {
+                "Name": "Vegetable Biryani, Mutton Curry, Bhindi Masala, Curd Rice, Mixed Nuts",
+                "Recipe": {
+                    "Vegetable Biryani": {
+                        "Ingredients": [
+                            "Basmati rice",
+                            "Mixed vegetables",
+                            "Onions",
+                            "Tomatoes",
+                            "Ginger-garlic paste",
+                            "Biryani masala",
+                            "Mint leaves",
+                            "Coriander leaves",
+                            "Ghee",
+                            "Yogurt",
+                            "Saffron strands",
+                            "Milk",
+                            "Cashews",
+                            "Raisins"
+                        ],
+                        "Instructions": [
+                            "Soak basmati rice in water for 30 minutes.",
+                            "In a pan, heat ghee, add cashews and raisins, and fry until golden brown. Set aside.",
+                            "In the same pan, sauté onions until golden brown. Add ginger-garlic paste and cook until the raw smell disappears.",
+                            "Add tomatoes, biryani masala, mint leaves, and coriander leaves. Cook until the tomatoes are soft.",
+                            "Add mixed vegetables and sauté for a few minutes.",
+                            "In a separate bowl, mix yogurt and saffron strands soaked in milk.",
+                            "In a pressure cooker, layer soaked rice, vegetable mixture, and yogurt mixture. Cook until the rice is done.",
+                            "Garnish with fried cashews and raisins before serving."
+                        ]
+                    },
+                    "Mutton Curry": {
+                        "Ingredients": [
+                            "Mutton pieces",
+                            "Onions",
+                            "Tomatoes",
+                            "Ginger-garlic paste",
+                            "Chili powder",
+                            "Coriander powder",
+                            "Turmeric powder",
+                            "Garam masala",
+                            "Curry leaves",
+                            "Oil"
+                        ],
+                        "Instructions": [
+                            "Sauté onions until golden brown. Add ginger-garlic paste and cook until the raw smell disappears.",
+                            "Add tomatoes and cook until they are soft.",
+                            "Add mutton pieces, chili powder, coriander powder, turmeric powder, and garam masala. Mix well.",
+                            "Add curry leaves and cook until the mutton is tender. Add water if needed."
+                        ]
+                    },
+                    "Bhindi Masala": {
+                        "Ingredients": [
+                            "Bhindi (Okra)",
+                            "Onions",
+                            "Tomatoes",
+                            "Green chilies",
+                            "Ginger",
+                            "Coriander powder",
+                            "Turmeric powder",
+                            "Cumin seeds",
+                            "Mustard seeds",
+                            "Curry leaves",
+                            "Oil"
+                        ],
+                        "Instructions": [
+                            "Chop bhindi into pieces. Sauté in oil until they are cooked and slightly crispy. Set aside.",
+                            "In the same pan, add mustard seeds, cumin seeds, and curry leaves.",
+                            "Add chopped onions, green chilies, and ginger. Sauté until onions are golden brown.",
+                            "Add tomatoes, coriander powder, turmeric powder, and salt. Cook until tomatoes are soft.",
+                            "Add the sautéed bhindi to the mixture. Mix well and cook for a few more minutes."
+                        ]
+                    },
+                    "Curd Rice": {
+                        "Ingredients": [
+                            "Rice",
+                            "Curd",
+                            "Salt",
+                            "Nuts Mix"
+                        ],
+                        "Instructions": [
+                            "Cook rice and let it cool. Mix curd and salt with the rice.",
+                            "Add a mix of nuts to enhance the flavor."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 800,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 20,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 90,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 25,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 8,
+                        "unit": "g"
+                    }
+                },
+                "Nuts and Seeds": [
+                    "Cashews",
+                    "Raisins"
+                ],
+                "Note": "Enjoy your Vegetable Biryani, Mutton Curry, Bhindi Masala, Curd Rice, and a mix of nuts!"
+            },
+            "Snack": {
+                "Name": "Sprouts Salad with Pistachios, Tea or Coffee, Mixed Nuts",
+                "Recipe": {
+                    "Sprouts Salad": {
+                        "Ingredients": [
+                            "Mixed sprouts",
+                            "Cucumber",
+                            "Tomatoes",
+                            "Onions",
+                            "Green chilies",
+                            "Lemon juice",
+                            "Chat masala",
+                            "Pistachios"
+                        ],
+                        "Instructions": [
+                            "Boil mixed sprouts until they are tender. Let them cool.",
+                            "Dice cucumber, tomatoes, and onions.",
+                            "In a bowl, mix sprouts, diced vegetables, green chilies, lemon juice, chat masala, and pistachios.",
+                            "Garnish with pistachios before serving."
+                        ]
+                    },
+                    "Tea or Coffee": {
+                        "Ingredients": [
+                            "Tea leaves or Coffee powder",
+                            "Water",
+                            "Milk",
+                            "Sugar (optional)"
+                        ],
+                        "Instructions": [
+                            "Boil water and add tea leaves or coffee powder.",
+                            "Add milk and sugar if desired. Strain and serve."
+                        ]
+                    },
+                    "Mixed Nuts": {
+                        "Ingredients": [
+                            "Almonds",
+                            "Walnuts",
+                            "Cashews",
+                            "Pistachios",
+                            "Sunflower seeds",
+                            "Pumpkin seeds"
+                        ],
+                        "Instructions": [
+                            "Mix a variety of nuts and seeds for a wholesome and crunchy snack."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 300,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 8,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 20,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 15,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 5,
+                        "unit": "g"
+                    }
+                },
+                "Nuts and Seeds": [
+                    "Pistachios",
+                    "Almonds",
+                    "Walnuts",
+                    "Cashews",
+                    "Sunflower seeds",
+                    "Pumpkin seeds"
+                ],
+                "Note": "Enjoy your Sprouts Salad with Pistachios, Tea or Coffee, and a mix of nuts!"
+            },
+            "Dinner": {
+                "Name": "Chapati with Raita, Fish Fry, Tomato Rasam, Buttermilk, Mixed Nuts",
+                "Recipe": {
+                    "Paratha": {
+                        "Ingredients": [
+                            "Whole wheat flour",
+                            "Water",
+                            "Salt",
+                            "Ghee"
+                        ],
+                        "Instructions": [
+                            "Mix whole wheat flour, water, and salt to form a dough.",
+                            "Make small balls and roll them into Chapatis.",
+                            "Cook on a hot griddle, adding ghee as needed, until both sides are golden brown."
+                        ]
+                    },
+                    "Raita": {
+                        "Ingredients": [
+                            "Curd",
+                            "Cucumber",
+                            "Tomatoes",
+                            "Onions",
+                            "Green chilies",
+                            "Coriander leaves",
+                            "Cumin powder",
+                            "Salt",
+                            "Mixed Nuts"
+                        ],
+                        "Instructions": [
+                            "Dice cucumber, tomatoes, and onions.",
+                            "In a bowl, mix curd, diced vegetables, chopped green chilies, coriander leaves, cumin powder, salt, and mixed nuts."
+                        ]
+                    },
+                    "Fish Fry": {
+                        "Ingredients": [
+                            "Fish fillets",
+                            "Red chili powder",
+                            "Turmeric powder",
+                            "Coriander powder",
+                            "Lemon juice",
+                            "Ginger-garlic paste",
+                            "Rice flour",
+                            "Oil for frying",
+                            "Salt"
+                        ],
+                        "Instructions": [
+                            "Marinate fish fillets with red chili powder, turmeric powder, coriander powder, lemon juice, ginger-garlic paste, and salt.",
+                            "Coat the marinated fish with rice flour and deep fry until golden brown."
+                        ]
+                    },
+                    "Tomato Rasam": {
+                        "Ingredients": [
+                            "Tomatoes",
+                            "Tamarind extract",
+                            "Rasam powder",
+                            "Turmeric powder",
+                            "Asafoetida",
+                            "Mustard seeds",
+                            "Curry leaves",
+                            "Coriander leaves",
+                            "Ghee",
+                            "Salt"
+                        ],
+                        "Instructions": [
+                            "Boil tomatoes until they are soft. Mash them well.",
+                            "In a pot, add tamarind extract, rasam powder, turmeric powder, asafoetida, and salt.",
+                            "Add the mashed tomatoes and bring it to a boil.",
+                            "In a tempering pan, heat ghee, add mustard seeds, and curry leaves. Pour over the rasam.",
+                            "Garnish with coriander leaves before serving."
+                        ]
+                    },
+                    "Buttermilk": {
+                        "Ingredients": [
+                            "Curd",
+                            "Water",
+                            "Salt",
+                            "Cumin powder",
+                            "Asafoetida",
+                            "Curry leaves",
+                            "Mustard seeds",
+                            "Ginger",
+                            "Mixed Nuts"
+                        ],
+                        "Instructions": [
+                            "In a bowl, mix curd and water to make buttermilk.",
+                            "Add salt, cumin powder, and asafoetida.",
+                            "In a tempering pan, heat oil, add mustard seeds, curry leaves, finely chopped ginger, and mixed nuts. Pour over the buttermilk."
+                        ]
+                    },
+                    "Mixed Nuts": {
+                        "Ingredients": [
+                            "Almonds",
+                            "Walnuts",
+                            "Cashews",
+                            "Pistachios",
+                            "Sunflower seeds",
+                            "Pumpkin seeds"
+                        ],
+                        "Instructions": [
+                            "Mix a variety of nuts and seeds for a wholesome and crunchy snack."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 700,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 18,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 50,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 20,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 7,
+                        "unit": "g"
+                    }
+                },
+                "Nuts and Seeds": [
+                    "Almonds",
+                    "Walnuts",
+                    "Cashews",
+                    "Pistachios",
+                    "Sunflower seeds",
+                    "Pumpkin seeds"
+                ],
+                "Note": "Enjoy your Paratha with Raita, Fish Fry, Tomato Rasam, Buttermilk, and a mix of nuts!"
+            }
+        }
+    },
+    {
+        "day": "Day 10",
+        "meals": {
+            "Breakfast": {
+                "Name": "Ragi Idiyappam with Tomato Thokku, Apple, Nuts Mix, Buttermilk",
+                "Recipe": {
+                    "Ragi Idiyappam": {
+                        "Ingredients": [
+                            "Ragi flour",
+                            "Water",
+                            "Salt",
+                            "Oil"
+                        ],
+                        "Instructions": [
+                            "Mix ragi flour, salt, and water to form a soft dough.",
+                            "Press the dough through an idiyappam maker to make thin strands.",
+                            "Steam the ragi idiyappam until cooked."
+                        ]
+                    },
+                    "Tomato Thokku": {
+                        "Ingredients": [
+                            "Tomatoes",
+                            "Onions",
+                            "Green chilies",
+                            "Ginger-garlic paste",
+                            "Mustard seeds",
+                            "Curry leaves",
+                            "Red chili powder",
+                            "Turmeric powder",
+                            "Coriander powder",
+                            "Oil",
+                            "Salt"
+                        ],
+                        "Instructions": [
+                            "Heat oil in a pan, add mustard seeds and curry leaves.",
+                            "Add chopped onions, green chilies, and ginger-garlic paste. Sauté until onions are golden brown.",
+                            "Add tomatoes, red chili powder, turmeric powder, coriander powder, and salt. Cook until the tomatoes are soft."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 300,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 8,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 25,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 10,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 5,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Ragi Idiyappam with Tomato Thokku, Apple, a mix of nuts, and Buttermilk!"
+            },
+            "Lunch": {
+                "Name": "Coconut Rice with Fish Curry, Drumstick Sambar, Beans Poriyal, Curd Rice, Mixed Nuts",
+                "Recipe": {
+                    "Coconut Rice": {
+                        "Ingredients": [
+                            "Cooked rice",
+                            "Grated coconut",
+                            "Mustard seeds",
+                            "Urad dal",
+                            "Chana dal",
+                            "Curry leaves",
+                            "Green chilies",
+                            "Oil",
+                            "Salt"
+                        ],
+                        "Instructions": [
+                            "In a pan, heat oil, add mustard seeds, urad dal, chana dal, and curry leaves.",
+                            "Add grated coconut and sauté until it turns golden brown.",
+                            "Mix the seasoned coconut with cooked rice. Add salt to taste."
+                        ]
+                    },
+                    "Fish Curry": {
+                        "Ingredients": [
+                            "Fish pieces",
+                            "Onions",
+                            "Tomatoes",
+                            "Green chilies",
+                            "Ginger-garlic paste",
+                            "Coriander powder",
+                            "Turmeric powder",
+                            "Chili powder",
+                            "Tamarind extract",
+                            "Curry leaves",
+                            "Mustard seeds",
+                            "Oil",
+                            "Salt"
+                        ],
+                        "Instructions": [
+                            "Marinate fish pieces with salt and turmeric powder. Fry until golden brown. Set aside.",
+                            "In a pan, add mustard seeds and curry leaves.",
+                            "Add chopped onions, green chilies, and ginger-garlic paste. Sauté until onions are golden brown.",
+                            "Add tomatoes, coriander powder, turmeric powder, chili powder, and salt. Cook until the tomatoes are soft.",
+                            "Add tamarind extract and bring it to a boil. Add the fried fish pieces and simmer until the curry thickens."
+                        ]
+                    },
+                    "Drumstick Sambar": {
+                        "Ingredients": [
+                            "Toor dal",
+                            "Drumsticks",
+                            "Sambar powder",
+                            "Tamarind extract",
+                            "Onions",
+                            "Tomatoes",
+                            "Green chilies",
+                            "Mustard seeds",
+                            "Urad dal",
+                            "Curry leaves",
+                            "Oil",
+                            "Coriander leaves",
+                            "Salt"
+                        ],
+                        "Instructions": [
+                            "Cook toor dal until soft and mash it.",
+                            "In a pot, add drumsticks, sambar powder, tamarind extract, onions, tomatoes, green chilies, and salt. Cook until drumsticks are tender.",
+                            "Add the mashed dal and bring it to a boil.",
+                            "In a tempering pan, add oil, mustard seeds, urad dal, and curry leaves. Pour over the sambar. Garnish with coriander leaves."
+                        ]
+                    },
+                    "Beans Poriyal": {
+                        "Ingredients": [
+                            "Beans",
+                            "Coconut",
+                            "Mustard seeds",
+                            "Urad dal",
+                            "Curry leaves",
+                            "Green chilies",
+                            "Oil",
+                            "Salt"
+                        ],
+                        "Instructions": [
+                            "Chop beans into small pieces. Cook until they are tender.",
+                            "In a pan, heat oil, add mustard seeds, urad dal, curry leaves, and green chilies.",
+                            "Add grated coconut and sauté. Add the cooked beans and salt. Stir well."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 800,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 30,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 70,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 25,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 10,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Coconut Rice with Fish Curry, Drumstick Sambar, Beans Poriyal, Curd Rice, and a mix of nuts!"
+            },
+            "Snack": {
+                "Name": "Pazham Pori with Tea or Coffee, Watermelon, Mixed Nuts",
+                "Recipe": {
+                    "Pazham Pori": {
+                        "Ingredients": [
+                            "Ripe bananas",
+                            "Maida (All-purpose flour)",
+                            "Rice flour",
+                            "Turmeric powder",
+                            "Sugar",
+                            "Salt",
+                            "Water",
+                            "Oil for frying"
+                        ],
+                        "Instructions": [
+                            "Mix maida, rice flour, turmeric powder, sugar, and salt in a bowl. Add water to make a thick batter.",
+                            "Peel bananas and dip them in the batter. Fry until golden brown."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 200,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 5,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 20,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 10,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 2,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Pazham Pori with Tea or Coffee, Watermelon, and a mix of nuts!"
+            },
+            "Dinner": {
+                "Name": "Paruppu Usili with Vatha Kuzhambu, Radish Sambar, Snake Gourd Poriyal, Buttermilk, Mixed Nuts",
+                "Recipe": {
+                    "Paruppu Usili": {
+                        "Ingredients": [
+                            "Toor dal",
+                            "Chana dal",
+                            "Red chilies",
+                            "Asafoetida",
+                            "Turmeric powder",
+                            "Beans",
+                            "Mustard seeds",
+                            "Urad dal",
+                            "Curry leaves",
+                            "Oil",
+                            "Salt"
+                        ],
+                        "Instructions": [
+                            "Soak toor dal, chana dal, and red chilies. Grind into a coarse paste with asafoetida and turmeric powder.",
+                            "Steam the ground paste for 10-15 minutes.",
+                            "In a pan, add mustard seeds, urad dal, curry leaves, and chopped beans. Sauté until the beans are cooked.",
+                            "Crumble the steamed dal mixture and add it to the sautéed beans. Mix well."
+                        ]
+                    },
+                    "Vatha Kuzhambu": {
+                        "Ingredients": [
+                            "Tamarind extract",
+                            "Sambar onions",
+                            "Garlic",
+                            "Curry leaves",
+                            "Sambar powder",
+                            "Turmeric powder",
+                            "Mustard seeds",
+                            "Urad dal",
+                            "Oil",
+                            "Salt"
+                        ],
+                        "Instructions": [
+                            "In a pan, add tamarind extract, sambar onions, garlic, curry leaves, sambar powder, turmeric powder, and salt. Cook until the raw smell disappears.",
+                            "In a tempering pan, add oil, mustard seeds, and urad dal. Pour over the kuzhambu."
+                        ]
+                    },
+                    "Radish Sambar": {
+                        "Ingredients": [
+                            "Toor dal",
+                            "Radish",
+                            "Sambar powder",
+                            "Tamarind extract",
+                            "Onions",
+                            "Tomatoes",
+                            "Green chilies",
+                            "Mustard seeds",
+                            "Urad dal",
+                            "Curry leaves",
+                            "Oil",
+                            "Coriander leaves",
+                            "Salt"
+                        ],
+                        "Instructions": [
+                            "Cook toor dal until soft and mash it.",
+                            "In a pot, add radish, sambar powder, tamarind extract, onions, tomatoes, green chilies, and salt. Cook until radish is tender.",
+                            "Add the mashed dal and bring it to a boil.",
+                            "In a tempering pan, add oil, mustard seeds, urad dal, and curry leaves. Pour over the sambar. Garnish with coriander leaves."
+                        ]
+                    },
+                    "Snake Gourd Poriyal": {
+                        "Ingredients": [
+                            "Snake gourd",
+                            "Coconut",
+                            "Mustard seeds",
+                            "Urad dal",
+                            "Curry leaves",
+                            "Green chilies",
+                            "Oil",
+                            "Salt"
+                        ],
+                        "Instructions": [
+                            "Peel and chop snake gourd into small pieces. Cook until they are tender.",
+                            "In a pan, heat oil, add mustard seeds, urad dal, curry leaves, and green chilies.",
+                            "Add grated coconut and sauté. Add the cooked snake gourd and salt. Stir well."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 750,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 20,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 60,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 25,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 8,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Paruppu Usili with Vatha Kuzhambu, Radish Sambar, Snake Gourd Poriyal, Buttermilk, and a mix of nuts!"
+            }
+        }
+    },
+    {
+        "day": "Day 11",
+        "meals": {
+            "Breakfast": {
+                "Name": "Kothu Parotta with Salna, Pineapple, Filter Coffee",
+                "Recipe": {
+                    "Kothu Parotta": {
+                        "Ingredients": [
+                            "Parotta",
+                            "Vegetables (onions, tomatoes, bell peppers)",
+                            "Eggs",
+                            "Ginger-garlic paste",
+                            "Curry leaves",
+                            "Turmeric powder",
+                            "Chili powder",
+                            "Garam masala",
+                            "Coriander leaves",
+                            "Oil",
+                            "Salt"
+                        ],
+                        "Instructions": [
+                            "Shred the parottas into small pieces.",
+                            "In a pan, sauté onions, tomatoes, bell peppers, and curry leaves.",
+                            "Add ginger-garlic paste, turmeric powder, chili powder, and garam masala.",
+                            "Add shredded parottas and mix well. Add salt to taste.",
+                            "Make a well in the center, break eggs, and scramble. Mix everything together.",
+                            "Garnish with coriander leaves."
+                        ]
+                    },
+                    "Salna": {
+                        "Ingredients": [
+                            "Mixed vegetables",
+                            "Onions",
+                            "Tomatoes",
+                            "Green chilies",
+                            "Ginger-garlic paste",
+                            "Coriander leaves",
+                            "Turmeric powder",
+                            "Chili powder",
+                            "Coriander powder",
+                            "Garam masala",
+                            "Oil",
+                            "Salt"
+                        ],
+                        "Instructions": [
+                            "In a pan, sauté onions, green chilies, and ginger-garlic paste.",
+                            "Add tomatoes and cook until they are soft.",
+                            "Add mixed vegetables, turmeric powder, chili powder, coriander powder, and salt. Cook until the vegetables are tender.",
+                            "Add garam masala and coriander leaves. Mix well."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 550,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 22,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 60,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 20,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 8,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Kothu Parotta with Salna, Pineapple, and Filter Coffee!"
+            },
+            "Lunch": {
+                "Name": "Tomato Rice with Fish Fry, Vazhakkai Varuval, Kathirikkai Pachadi, Curd Rice",
+                "Recipe": {
+                    "Tomato Rice": {
+                        "Ingredients": [
+                            "Cooked rice",
+                            "Tomatoes",
+                            "Onions",
+                            "Green chilies",
+                            "Ginger-garlic paste",
+                            "Mustard seeds",
+                            "Urad dal",
+                            "Chana dal",
+                            "Curry leaves",
+                            "Turmeric powder",
+                            "Chili powder",
+                            "Coriander powder",
+                            "Garam masala",
+                            "Cashews",
+                            "Oil",
+                            "Salt"
+                        ],
+                        "Instructions": [
+                            "In a pan, add oil, mustard seeds, urad dal, chana dal, and cashews.",
+                            "Add chopped onions, green chilies, and ginger-garlic paste. Sauté until onions are golden brown.",
+                            "Add tomatoes, turmeric powder, chili powder, coriander powder, and garam masala. Cook until tomatoes are soft.",
+                            "Mix the seasoned mixture with cooked rice. Add salt to taste."
+                        ]
+                    },
+                    "Fish Fry": {
+                        "Ingredients": [
+                            "Fish fillets",
+                            "Lemon juice",
+                            "Turmeric powder",
+                            "Chili powder",
+                            "Coriander powder",
+                            "Ginger-garlic paste",
+                            "Rice flour",
+                            "Corn flour",
+                            "Curry leaves",
+                            "Oil",
+                            "Salt"
+                        ],
+                        "Instructions": [
+                            "Marinate fish fillets with lemon juice, turmeric powder, chili powder, coriander powder, and ginger-garlic paste.",
+                            "In a bowl, mix rice flour and corn flour. Coat the marinated fish with the flour mixture.",
+                            "Deep fry until the fish is golden brown. Garnish with curry leaves."
+                        ]
+                    },
+                    "Vazhakkai Varuval": {
+                        "Ingredients": [
+                            "Raw banana (Vazhakkai)",
+                            "Turmeric powder",
+                            "Chili powder",
+                            "Coriander powder",
+                            "Rice flour",
+                            "Salt",
+                            "Oil"
+                        ],
+                        "Instructions": [
+                            "Peel and slice raw bananas.",
+                            "In a bowl, mix turmeric powder, chili powder, coriander powder, rice flour, and salt.",
+                            "Coat the banana slices with the spice mixture.",
+                            "Deep fry until the banana slices are crisp and golden brown."
+                        ]
+                    },
+                    "Kathirikkai Pachadi": {
+                        "Ingredients": [
+                            "Brinjal (Kathirikkai)",
+                            "Onions",
+                            "Tomatoes",
+                            "Green chilies",
+                            "Curry leaves",
+                            "Mustard seeds",
+                            "Urad dal",
+                            "Cumin seeds",
+                            "Yogurt",
+                            "Oil",
+                            "Salt"
+                        ],
+                        "Instructions": [
+                            "Chop brinjals, onions, and tomatoes.",
+                            "In a pan, add oil, mustard seeds, urad dal, cumin seeds, and curry leaves.",
+                            "Add chopped onions, green chilies, and tomatoes. Sauté until they are soft.",
+                            "Add brinjals and cook until they are tender.",
+                            "Beat yogurt and add it to the mixture. Add salt to taste."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 750,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 30,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 80,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 25,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 10,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Tomato Rice with Fish Fry, Vazhakkai Varuval, Kathirikkai Pachadi, and Curd Rice!"
+            },
+            "Snack": {
+                "Name": "Sundal with Tea or Coffee, Pomegranate, Mixed Nuts",
+                "Recipe": {
+                    "Sundal": {
+                        "Ingredients": [
+                            "Chickpeas",
+                            "Coconut",
+                            "Green chilies",
+                            "Mustard seeds",
+                            "Urad dal",
+                            "Curry leaves",
+                            "Asafoetida",
+                            "Oil",
+                            "Salt"
+                        ],
+                        "Instructions": [
+                            "Soak chickpeas overnight and cook until they are soft.",
+                            "In a pan, add oil, mustard seeds, urad dal, curry leaves, and green chilies.",
+                            "Add cooked chickpeas, coconut, asafoetida, and salt. Mix well."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 300,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 10,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 40,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 15,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 5,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Sundal with Tea or Coffee, Pomegranate, and a mix of nuts!"
+            },
+            "Dinner": {
+                "Name": "Chettinad Vegetable Curry with Parotta, Keerai Masiyal, Onion Raita, Mixed Nuts",
+                "Recipe": {
+                    "Chettinad Vegetable Curry": {
+                        "Ingredients": [
+                            "Mixed vegetables (carrots, beans, peas, potatoes)",
+                            "Onions",
+                            "Tomatoes",
+                            "Green chilies",
+                            "Ginger-garlic paste",
+                            "Coriander leaves",
+                            "Curry leaves",
+                            "Mustard seeds",
+                            "Urad dal",
+                            "Cumin seeds",
+                            "Fennel seeds",
+                            "Turmeric powder",
+                            "Chili powder",
+                            "Coriander powder",
+                            "Garam masala",
+                            "Coconut",
+                            "Oil",
+                            "Salt"
+                        ],
+                        "Instructions": [
+                            "Chop mixed vegetables, onions, tomatoes, and coriander leaves.",
+                            "In a pan, add oil, mustard seeds, urad dal, cumin seeds, and fennel seeds.",
+                            "Add chopped onions, green chilies, and curry leaves. Sauté until onions are golden brown.",
+                            "Add ginger-garlic paste, tomatoes, and coriander leaves. Cook until tomatoes are soft.",
+                            "Add mixed vegetables, turmeric powder, chili powder, coriander powder, and garam masala. Cook until vegetables are tender.",
+                            "Add coconut and salt. Mix well."
+                        ]
+                    },
+                    "Parotta": {
+                        "Ingredients": [
+                            "All-purpose flour",
+                            "Wheat flour",
+                            "Salt",
+                            "Water",
+                            "Oil"
+                        ],
+                        "Instructions": [
+                            "In a bowl, mix all-purpose flour, wheat flour, and salt.",
+                            "Add water gradually and knead into a soft dough.",
+                            "Make small balls and roll them into thin discs. Apply oil on each disc and layer them.",
+                            "Roll the layered discs into a parotta and cook on a hot griddle until done."
+                        ]
+                    },
+                    "Keerai Masiyal": {
+                        "Ingredients": [
+                            "Spinach",
+                            "Moong dal",
+                            "Garlic",
+                            "Green chilies",
+                            "Oil",
+                            "Salt"
+                        ],
+                        "Instructions": [
+                            "Blanch spinach and moong dal. Grind into a coarse paste with garlic and green chilies.",
+                            "In a pan, add oil and the ground mixture. Cook until it reaches a thick consistency.",
+                            "Add salt to taste."
+                        ]
+                    },
+                    "Onion Raita": {
+                        "Ingredients": [
+                            "Onions",
+                            "Curd",
+                            "Coriander leaves",
+                            "Salt"
+                        ],
+                        "Instructions": [
+                            "Chop onions and coriander leaves.",
+                            "Mix them with curd and add salt to taste."
+                        ]
+                    }
+                },
+                "Nutrients": {
+                    "Calories": {
+                        "value": 700,
+                        "unit": "kcal"
+                    },
+                    "Protein": {
+                        "value": 25,
+                        "unit": "g"
+                    },
+                    "Carbohydrates": {
+                        "value": 70,
+                        "unit": "g"
+                    },
+                    "Fat": {
+                        "value": 30,
+                        "unit": "g"
+                    },
+                    "Fiber": {
+                        "value": 12,
+                        "unit": "g"
+                    }
+                },
+                "Note": "Enjoy your Chettinad Vegetable Curry with Parotta, Keerai Masiyal, Onion Raita, and a mix of nuts!"
+            }
+        }
+    }
+]
