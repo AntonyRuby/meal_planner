@@ -73,7 +73,8 @@ class RecipeDetailScreen extends StatelessWidget {
             if (meal['Nutrients'] != null) ...[
               for (var nutrient in meal['Nutrients'].keys)
                 Text(
-                    '$nutrient: ${meal['Nutrients'][nutrient]['value']} ${meal['Nutrients'][nutrient]['unit']}'),
+                  '$nutrient: ${meal['Nutrients'][nutrient]['value']} ${meal['Nutrients'][nutrient]['unit']}',
+                ),
             ],
           ],
         ),
