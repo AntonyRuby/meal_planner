@@ -9,6 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Meal Planner',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
         colorScheme: ThemeData().colorScheme.copyWith(secondary: Colors.green),
@@ -34,23 +35,34 @@ class _MyHomePageState extends State<MyHomePage>
     with SingleTickerProviderStateMixin {
   late TabController _tabController;
   late List<Map<String, dynamic>> mealPlan;
+  late Future<void> mealPlanFuture;
 
   @override
   void initState() {
     super.initState();
     _tabController = TabController(length: 4, vsync: this);
     mealPlan = [];
-    loadMealPlan();
+    mealPlanFuture = loadMealPlan();
   }
 
   Future<void> loadMealPlan() async {
-    // Load the JSON file
-    String jsonString = await rootBundle.loadString('assets/meal_plan.json');
+    try {
+      // Simulate a delay to show loading indicator
+      await Future.delayed(Duration(seconds: 2));
 
-    // Parse the JSON
-    setState(() {
-      mealPlan = List<Map<String, dynamic>>.from(json.decode(jsonString));
-    });
+      // Load the JSON file
+      String jsonString = await rootBundle.loadString('assets/meal_plan.json');
+
+      // Parse the JSON
+      setState(() {
+        mealPlan = List<Map<String, dynamic>>.from(json.decode(jsonString));
+      });
+    } catch (error) {
+      // Handle errors (network errors, JSON parsing errors, etc.)
+      print("Error loading meal plan: $error");
+      // Optionally, you can show an error message to the user
+      // You can set mealPlan to an empty list or handle it based on your app's logic
+    }
   }
 
   @override
@@ -68,15 +80,33 @@ class _MyHomePageState extends State<MyHomePage>
           ],
         ),
       ),
-      body: TabBarView(
-        controller: _tabController,
-        children: [
-          for (var mealType in ['Breakfast', 'Lunch', 'Snack', 'Dinner'])
-            MealPlanListView(
-              mealPlan: mealPlan,
-              mealType: mealType,
-            ),
-        ],
+      body: FutureBuilder(
+        future: mealPlanFuture,
+        builder: (context, snapshot) {
+          if (snapshot.connectionState == ConnectionState.waiting) {
+            // Show a loading indicator while the data is being fetched
+            return Center(
+              child: CircularProgressIndicator(),
+            );
+          } else if (snapshot.hasError) {
+            // Show an error message if there was an error loading the data
+            return Center(
+              child: Text('Error loading meal plan'),
+            );
+          } else {
+            // Data has been loaded successfully, display the TabBarView
+            return TabBarView(
+              controller: _tabController,
+              children: [
+                for (var mealType in ['Breakfast', 'Lunch', 'Snack', 'Dinner'])
+                  MealPlanListView(
+                    mealPlan: mealPlan,
+                    mealType: mealType,
+                  ),
+              ],
+            );
+          }
+        },
       ),
     );
   }
@@ -94,6 +124,18 @@ class MealPlanListView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    return mealPlan.isEmpty
+        ? _buildLoadingIndicator()
+        : _buildMealList(context);
+  }
+
+  Widget _buildLoadingIndicator() {
+    return Center(
+      child: CircularProgressIndicator(),
+    );
+  }
+
+  Widget _buildMealList(BuildContext context) {
     return ListView.builder(
       itemCount: mealPlan.length,
       itemBuilder: (context, index) {
@@ -102,6 +144,7 @@ class MealPlanListView extends StatelessWidget {
 
         return Card(
           margin: const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
+          elevation: 3, // Add elevation for a card-like appearance
           child: ListTile(
             title: Text(mealsForDay['Name']),
             subtitle: Text(day),
