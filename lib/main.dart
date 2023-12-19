@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -15,7 +16,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ThemeData().colorScheme.copyWith(secondary: Colors.green),
         fontFamily: 'Montserrat', // Example of a different font
         textTheme: TextTheme(
-          headline6: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+          headline6:
+              const TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
           bodyText2: TextStyle(fontSize: 16.0, color: Colors.grey[800]),
         ),
       ),
@@ -34,8 +36,10 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage>
     with SingleTickerProviderStateMixin {
   late TabController _tabController;
-  late List<Map<String, dynamic>> mealPlan;
-  late Future<void> mealPlanFuture;
+  List<Map<String, dynamic>> mealPlan = [];
+  late Future<List<Map<String, dynamic>>> mealPlanFuture;
+
+  bool showFavoritesOnly = false;
 
   @override
   void initState() {
@@ -45,23 +49,20 @@ class _MyHomePageState extends State<MyHomePage>
     mealPlanFuture = loadMealPlan();
   }
 
-  Future<void> loadMealPlan() async {
+  @override
+  void dispose() {
+    _tabController.dispose();
+    super.dispose();
+  }
+
+  Future<List<Map<String, dynamic>>> loadMealPlan() async {
     try {
-      // Simulate a delay to show loading indicator
-      await Future.delayed(Duration(seconds: 2));
-
-      // Load the JSON file
       String jsonString = await rootBundle.loadString('assets/meal_plan.json');
-
-      // Parse the JSON
-      setState(() {
-        mealPlan = List<Map<String, dynamic>>.from(json.decode(jsonString));
-      });
+      print(jsonString);
+      return List<Map<String, dynamic>>.from(json.decode(jsonString));
     } catch (error) {
-      // Handle errors (network errors, JSON parsing errors, etc.)
-      print("Error loading meal plan: $error");
-      // Optionally, you can show an error message to the user
-      // You can set mealPlan to an empty list or handle it based on your app's logic
+      print('Error loading meal plan: $error');
+      return []; // Return an empty list or handle the error accordingly
     }
   }
 
@@ -79,22 +80,33 @@ class _MyHomePageState extends State<MyHomePage>
             Tab(text: 'Dinner'),
           ],
         ),
+        actions: [
+          IconButton(
+            icon: Icon(
+              showFavoritesOnly ? Icons.favorite : Icons.favorite_border,
+              color: showFavoritesOnly ? Colors.red : null,
+            ),
+            onPressed: () {
+              setState(() {
+                showFavoritesOnly = !showFavoritesOnly;
+              });
+            },
+          ),
+        ],
       ),
-      body: FutureBuilder(
+      body: FutureBuilder<List<Map<String, dynamic>>>(
         future: mealPlanFuture,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
-            // Show a loading indicator while the data is being fetched
-            return Center(
+            return const Center(
               child: CircularProgressIndicator(),
             );
           } else if (snapshot.hasError) {
-            // Show an error message if there was an error loading the data
-            return Center(
+            return const Center(
               child: Text('Error loading meal plan'),
             );
-          } else {
-            // Data has been loaded successfully, display the TabBarView
+          } else if (snapshot.hasData) {
+            mealPlan = snapshot.data!;
             return TabBarView(
               controller: _tabController,
               children: [
@@ -102,52 +114,95 @@ class _MyHomePageState extends State<MyHomePage>
                   MealPlanListView(
                     mealPlan: mealPlan,
                     mealType: mealType,
+                    showFavoritesOnly: showFavoritesOnly,
+                    onFavoriteChanged: (index, mealType) {
+                      // Callback to handle favorite changes
+                      _saveFavorite(index, mealType);
+                    },
                   ),
               ],
+            );
+          } else {
+            return const Center(
+              child: Text('No data found'),
             );
           }
         },
       ),
     );
   }
+
+  // Save the updated mealPlan to SharedPreferences
+  Future<void> _saveFavorite(int index, String mealType) async {
+    final SharedPreferences prefs = await SharedPreferences.getInstance();
+    final meal = mealPlan[index]['meals'][mealType];
+    prefs.setBool('${meal['Name']}_$mealType', meal['favorite'] ?? false);
+  }
 }
 
-class MealPlanListView extends StatelessWidget {
+class MealPlanListView extends StatefulWidget {
   final String mealType;
   final List<Map<String, dynamic>> mealPlan;
+  final bool showFavoritesOnly;
+  final Function(int, String) onFavoriteChanged;
 
   const MealPlanListView({
     Key? key,
     required this.mealType,
     required this.mealPlan,
+    required this.showFavoritesOnly,
+    required this.onFavoriteChanged,
   }) : super(key: key);
 
   @override
+  State<MealPlanListView> createState() => _MealPlanListViewState();
+}
+
+class _MealPlanListViewState extends State<MealPlanListView> {
+  @override
   Widget build(BuildContext context) {
-    return mealPlan.isEmpty
+    final filteredMealPlan = widget.showFavoritesOnly
+        ? widget.mealPlan
+            .where((day) =>
+                day['meals'][widget.mealType]['favorite'] != null &&
+                day['meals'][widget.mealType]['favorite'] == true)
+            .toList()
+        : widget.mealPlan;
+
+    return filteredMealPlan.isEmpty
         ? _buildLoadingIndicator()
-        : _buildMealList(context);
+        : _buildFavoriteList(context, filteredMealPlan);
   }
 
   Widget _buildLoadingIndicator() {
-    return Center(
+    return const Center(
       child: CircularProgressIndicator(),
     );
   }
 
-  Widget _buildMealList(BuildContext context) {
+  Widget _buildFavoriteList(
+      BuildContext context, List<Map<String, dynamic>> favorites) {
     return ListView.builder(
-      itemCount: mealPlan.length,
+      itemCount: favorites.length,
       itemBuilder: (context, index) {
-        final day = mealPlan[index]['day'];
-        final mealsForDay = mealPlan[index]['meals'][mealType];
+        final day = favorites[index]['day'];
+        final mealsForDay = favorites[index]['meals'][widget.mealType];
+        final isFavorite = mealsForDay['favorite'] ?? false;
 
         return Card(
           margin: const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
-          elevation: 3, // Add elevation for a card-like appearance
+          elevation: 3,
           child: ListTile(
             title: Text(mealsForDay['Name']),
             subtitle: Text(day),
+            trailing: IconButton(
+              icon: isFavorite
+                  ? Icon(Icons.favorite, color: Colors.red)
+                  : Icon(Icons.favorite_border),
+              onPressed: () {
+                _toggleFavorite(index, widget.mealType);
+              },
+            ),
             onTap: () {
               Navigator.push(
                 context,
@@ -162,6 +217,22 @@ class MealPlanListView extends StatelessWidget {
         );
       },
     );
+  }
+
+  // Function to toggle the favorite status
+  Future<void> _toggleFavorite(int index, String mealType) async {
+    final SharedPreferences prefs = await SharedPreferences.getInstance();
+
+    setState(() {
+      final meal = widget.mealPlan[index]['meals'][mealType];
+      meal['favorite'] =
+          !(meal['favorite'] ?? false); // Toggle the favorite status
+    });
+
+    // Save the updated mealPlan to persistent storage
+    prefs.setBool(
+        '${widget.mealPlan[index]['meals'][mealType]['Name']}_$mealType',
+        widget.mealPlan[index]['meals'][mealType]['favorite'] ?? false);
   }
 }
 
@@ -248,6 +319,8 @@ class RecipeDetailScreen extends StatelessWidget {
   }
 }
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await SharedPreferences.getInstance();
   runApp(const MyApp());
 }
